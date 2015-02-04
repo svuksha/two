@@ -1,0 +1,345 @@
+body{
+	background-image:url("img/bedge_grunge.png");
+	width:55%;
+	margin:0 auto;
+	font-family: Calibri Light,Arial, sans-serif;
+	color:#645844;
+}
+header{
+	background-image:url("img/srce.gif");
+	background-size:40%;
+	background-repeat:no-repeat;
+	background-position:center;
+	overflow:hidden;
+	width:100%;
+
+}
+img{
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+header img {
+	width:30%;
+	text-align:center;
+}
+.navigacija {
+	width:100%;
+
+}
+nav ul {
+	list-style:none;
+	font-size:160%;
+	width:100%;
+	margin:1% 0%;
+	padding-left: 0;
+}
+
+nav ul li{
+	margin-right:0.5% ;
+	border-top:1px solid #645844;
+	border-bottom:1px solid #645844;
+	text-align:center;
+	padding:0% 4%;
+	display:inline-block;
+}
+nav ul li a{
+	display:block;
+	text-decoration:none;
+	color:#645844;
+	font-size:80%;
+	
+}
+nav ul li a:hover,nav ul li.active a {
+	display:block;
+	color:#5d9b7a;
+}
+
+h1 {
+	font-family: Chiller,Brush Script M,serif;
+	font-size:5em;
+	color:#5d9b7a;
+	text-align:center;
+	line-height:1.5em;
+}
+h3 {
+	font-family: Chiller,Brush Script M,serif;
+	font-size:2em;
+	line-height:0.5em;
+	color:#5d9b7a;
+}
+h5 {
+	background-color:#5d9b7a;
+	color:#ffffff;
+	width:20%;
+	padding:1% 2%;
+	font-size:1.5em;
+	text-align:center;
+	
+}
+.glavno {
+	background-color:#ffffff;
+	border:4px solid #645844;
+	box-shadow:0 0 10px 0px rgba(12,3,25,0.8);
+	overflow:hidden;
+	line-height:3em;
+	
+}
+
+.parola {
+	float:left;
+	width:20%;
+	padding:0% 5%;
+	font-size:2em;
+}
+
+.naslovna{
+	float:left;
+	position: relative;
+	width:70%;
+	height:100%;
+	padding:0px;
+	margin:1% 0% -1% -1%;
+}
+
+
+.o_nama{
+	width:17%;
+	float:left;
+	border:4px solid #645844;	
+	padding:0% 2%;
+	margin:2% 1% 2% 0%;
+}
+
+.projekti {
+	width:17%;
+	float:left;
+	border:4px solid #645844;
+	margin:2% 0.8% 2% 2%;
+	padding:0% 2.5%;
+}
+
+.doniraj {
+	width:17%;
+	float:left;
+	border:4px solid #645844;
+	margin:2% 0% 2% 2%;
+	padding:0% 2.5%;
+}
+
+.ukljuci_se{
+	width:17%;
+	float:right;
+	border:4px solid #645844;
+	margin:2% 0% 2% 0%;
+	padding:0% 2.5%;
+	
+}
+.clearfix {
+	clear:both;
+}
+
+.najave img{
+	float:left;
+	width:65%;
+	margin-right:5%;
+	height:350px;
+}
+ .najave_par {
+	float:left;
+	width:30%;
+	padding:0;
+	margin-top:-1.5%;
+ }
+
+.clearfix {
+	clear:both;
+}
+
+footer p {
+	float:left;
+	clear:both;
+	padding:2% 0%;
+	width:70%;
+}
+
+footer ul {
+	list-style-type:none;
+	float:right;
+	width:20%;
+}
+
+footer ul li {
+	display:inline;
+}
+footer ul li img {
+	width:20%;
+}
+
+/****************MEDIA**************************/
+
+@media screen and (min-width: 150px) and (max-width:600px){
+
+body {
+	width:98%;
+	font-size:95%;
+}
+nav ul {
+	list-style:none;
+	font-size:1.8em;
+	width:98%;
+	margin:0;
+	padding-left: 0;
+}
+	
+nav ul li{
+	width:98%;
+	margin:0%;
+	border-top:1px solid #645844;
+	border-bottom:1px solid #645844;
+	text-align:center;
+	padding:0% 3%;
+	display:inline-block;
+}
+nav ul li a{
+	display:block;
+	text-decoration:none;
+	color:#645844;
+	font-size:80%;
+	
+}
+
+nav ul li a:hover,nav ul li.active a {
+	display:block;
+	color:#5d9b7a;
+}
+
+header{
+	background-size:70%;
+	background-position:center bottom;
+}
+
+.parola {
+	width:100%;
+}
+
+.naslovna{
+	width:98%;
+	margin:1% 2% 0% 1%;
+}
+
+.o_nama{
+	width:92%;
+	padding:0% 3%;
+}
+
+.projekti {
+	width:92%;
+	float:left;
+	margin:2% 0.8% 2% 0%;
+	padding:0% 3%;
+}
+
+.doniraj {
+	width:92%;
+	float:left;
+	margin:2% 0.8% 2% 0%;
+	padding:0% 3%;
+}
+
+
+.ukljuci_se{
+	width:92%;
+	float:left;
+	margin:2% 0%;
+	padding:0% 3%;
+	
+}
+
+.najave img{
+	width:99%;
+	margin: 0% 0.5%;
+}
+ .najave_par {
+	width:99%;
+	margin-top:1%;
+ }
+ 
+footer ul {
+	list-style-type:none;
+	float:left;
+	width:50%;
+}
+
+footer ul li {
+	display:inline;
+}
+footer ul li img {
+	width:30%;
+}
+}
+@media screen and (min-width: 601px) and (max-width:960px){
+body {
+	width:98%;
+	font-size:95%;
+}
+nav ul {
+	font-size:130%;
+}
+
+.parola {
+	width:100%;
+	text-align:center;
+	padding:0%;
+}
+
+	
+.o_nama{
+	width:39%;
+	float:left;
+
+	padding:0% 3%;
+	margin:2% 1% 2% 0%;
+}
+.naslovna{
+	width:98%;
+	margin:1% 2% 0% 1%;
+}
+
+
+.projekti {
+	width:39%;
+	float:right;
+	border:4px solid #645844;
+	margin:2% 0.8% 2% 2%;
+	padding:0% 3%;
+}
+
+.doniraj {
+	width:39%;
+	float:left;
+	border:4px solid #645844;
+	margin:2% 0.8% 2% 0%;
+	padding:0% 3.3%;
+}
+
+
+.ukljuci_se{
+	width:39%;
+	float:right;
+	border:4px solid #645844;
+	margin:2% 0%;
+	padding:0% 3.6%;
+	
+}
+}
+
+@media screen and (min-width: 961px) and (max-width:1350px){
+
+body {
+	width:78%;
+}
+
+
+}
